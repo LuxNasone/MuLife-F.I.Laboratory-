@@ -3,14 +3,11 @@
 
 # You can set these variables from the command line, and also
 # from the environment for the first two.
-SPHINXOPTS    ?=
-SPHINXBUILD   ?= sphinx-build
+SPHINXOPTS    =
+SPHINXBUILD   = sphinx-build
 SOURCEDIR     = .
-<<<<<<< HEAD
 BUILDDIR      = _build
-=======
-BUILDDIR      = build
->>>>>>> 3864f96 (Salvataggio temporaneo prima del pull)
+
 
 # Put it first so that "make" without argument is like "make help".
 help:
